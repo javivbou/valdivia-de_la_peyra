@@ -4,15 +4,21 @@
 }
 
 body{
-	background:rgba(255,255,255,1);
+	background:rgba(0,0,0,1);
 	color:rgba(25,25,25,1);
-font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight:300;
+}
+
+
+h1, h2, h3{
+	font-family: 'Bungee', cursive;
 	font-weight:400;
 }
 
-h1, h2, h3, h4{
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700;
+h4{
+	font-family: 'Do Hyeon', sans-serif;
+	font-weight:400;
 }
 
 h1{
@@ -32,15 +38,35 @@ h2{
 
 h3{
 	letter-spacing:0.2em;
-	color:rgba(0,0,0,.75);
+	color:rgba(255,255,255,.75);
 	padding:2em 0 0.6em 0;
-	text-shadow: 1px 1px 0 #ccc;
+	text-shadow: 9px 9px 0 #081AB8;
 	text-align:center;
+	font-size: 200%;
 }
 
-h4, h5, h6{
+h4{
+	color:rgba(255,255,255,.75);
 	font-weight:left;
 	font-weight:600;
+	font-size: 150%;
+}
+
+h5{
+	color:rgba(255,255,255,.75);
+	font-weight:left;
+	font-weight:600;
+}
+
+h6{
+	color:rgba(255,255,255,.75);
+	font-weight:left;
+	font-weight:600;
+}
+
+h7{
+	color:rgba(255,255,255,.75);
+	font-weight:300;
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -94,8 +120,8 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
-	background-image:url('media/dupla-01.jpg');
+	background-color:rgba(19,19,19,1);
+	background-image:url('media/dupla-01.png');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -111,8 +137,8 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
-	background-image:url('media/dupla-02.jpg');
+	background-color:rgba(19,19,19,1);
+	background-image:url('media/dupla-02.png');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -134,14 +160,14 @@ video{
 #portafolio{
 	width:100%;
 	padding-bottom:1%;
-	background:linear-gradient(to bottom right, #F2E6D4, #E7F0EF);
+	background:linear-gradient(to bottom right, #131313, #131313);
 }
 
 .item {
 	width:23%;
 	margin:1%;
 	color:#333;
-	background:white;
+	background:black;
 	box-shadow:0 0 5px rgba(0,0,0,.1);
 }
 
@@ -163,7 +189,7 @@ video{
 .item:hover figure img{
 	transform:scale(1.25);
 	filter: grayscale(0);
-	transition:all ease-out 0.5s;
+	transition:all ease-out 2.5s;
 }
 
 .item h4{
@@ -179,6 +205,7 @@ video{
 }
 
 footer{
+	color:rgba(255,0,0,0.75);
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
